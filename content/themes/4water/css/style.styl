@@ -1,0 +1,30 @@
+@import '../../Parent/css/parent'
+
+// FONTS
+$body = 'Source Sans Pro', sans-serif
+$display = 'Swanky and Moo Moo'
+
+// COLOURS
+$blue = #40AEDE /*#28A5E1 */
+$green = #8CBB42
+$purple = #B54079
+$orange = #FF9922
+$black = #3B3C50
+$grey = #ccc
+
+
+bp(320px, mf)
+@import 'pre-js';
+@import mobile;
+endbp()
+
+bp(560px, mf)
+@import tablet;
+endbp()
+
+
+bp(960px, mf)
+@import desktop
+endbp()
+
+@import ie;

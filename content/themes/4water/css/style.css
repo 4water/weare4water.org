@@ -1,0 +1,2714 @@
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/stylus\/lib\/functions\/index\.styl}line{font-family:\000031}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/parent\.styl}line{font-family:\0000314}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\000031}}
+@import 'jeet/normalize.css';
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/nib\/gradients\.styl}line{font-family:\00003154}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/nib\/config\.styl}line{font-family:\00003154}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/nib\/vendor\.styl}line{font-family:\00003557}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/nib\/config\.styl}line{font-family:\00003557}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/settings\.styl}line{font-family:\000032}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\000039}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url("js/vendor/boxsizing.htc");
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000311}}
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000314}}
+.placeholder {
+  color: #aaa;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000316}}
+img,
+video,
+audio,
+embed,
+object,
+input,
+iframe {
+  max-width: 100%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000320}}
+.last {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000333}}
+body {
+  *zoom: 1;
+  width: 100%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000328}}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000331}}
+body:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000381}}
+.center {
+  *zoom: 1;
+  max-width: 3200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000328}}
+.center:before,
+.center:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000331}}
+.center:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000032}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\0000362}}
+.chromeframe {
+  width: 100%;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #eee));
+  background: -webkit-linear-gradient(top, #fff 0%, #eee 100%);
+  background: -moz-linear-gradient(top, #fff 0%, #eee 100%);
+  background: -o-linear-gradient(top, #fff 0%, #eee 100%);
+  background: -ms-linear-gradient(top, #fff 0%, #eee 100%);
+  background: linear-gradient(top, #fff 0%, #eee 100%);
+  border-bottom: 1px solid #ddd;
+  -webkit-box-shadow: inset 0 -1px 0 #fff;
+  box-shadow: inset 0 -1px 0 #fff;
+  text-shadow: 0 1px 0 #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\0000369}}
+.chromeframe p {
+  *zoom: 1;
+  max-width: 3200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding: 30px 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+.chromeframe p:before,
+.chromeframe p:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+.chromeframe p:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\0000374}}
+.chromeframe p a {
+  color: #3a95fb;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/typography\.styl}line{font-family:\0000376}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/typography\.styl}line{font-family:\000031}}
+html {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/typography\.styl}line{font-family:\000035}}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/typography\.styl}line{font-family:\000039}}
+p {
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/typography\.styl}line{font-family:\0000312}}
+a {
+  color: #3a95fb;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/typography\.styl}line{font-family:\0000314}}
+a img {
+  display: block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/typography\.styl}line{font-family:\0000316}}
+a:hover {
+  color: #056ee3;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/typography\.styl}line{font-family:\0000318}}
+input,
+textarea {
+  color: #000;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/nib\/image\.styl}line{font-family:\0000320}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/style\.styl}line{font-family:\000038}}
+/*#28A5E1 */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/nib\/image\.styl}line{font-family:\0000314}}
+@media all and (min-width: 320px) {
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000314}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\000031}}
+html {
+  background: url("../img/noise.png");
+  color: #3b3c50;
+  font: 1.3em/1.5em 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\000034}}
+html .center {
+  max-width: 960px;
+  position: relative;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000311}}
+body {
+  margin: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000313}}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body nav a {
+  font: 1.6em 'Swanky and Moo Moo';
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000315}}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  text-shadow: 0px 1px #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000317}}
+body h1,
+body .item h2 {
+  font-size: 1.8em;
+  color: #b54079;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000320}}
+body .item h2 {
+  margin-top: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000322}}
+body header h2>a {
+  color: #b54079;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000324}}
+body p,
+body li {
+  text-shadow: 0px 1px #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000326}}
+body strong,
+body b {
+  font-weight: 400;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000328}}
+body a {
+  text-decoration: none;
+  color: #40aede;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000331}}
+body a :hover {
+  color: #2292c3;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000333}}
+body img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000337}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000338}}
+body form label {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 0.25em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000344}}
+body form label input,
+body form label textarea {
+  color: #666;
+  display: block;
+  width: 100%;
+  font: 1.6em blanchcaps;
+  padding: 0.3em;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0,0,0,0.25);
+  box-shadow: inset 0 1px 4px rgba(0,0,0,0.25);
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000354}}
+body form label :focus {
+  outline: none;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #f7fcfe));
+  background: -webkit-linear-gradient(top, #fff 0%, #f7fcfe 100%);
+  background: -moz-linear-gradient(top, #fff 0%, #f7fcfe 100%);
+  background: -o-linear-gradient(top, #fff 0%, #f7fcfe 100%);
+  background: -ms-linear-gradient(top, #fff 0%, #f7fcfe 100%);
+  background: linear-gradient(top, #fff 0%, #f7fcfe 100%);
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000357}}
+body form input[type=submit] {
+  margin-top: 0.25em;
+  font-size: 1.8em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000360}}
+body form .warning,
+body form .error {
+  text-indent: 0;
+  color: #cc4848;
+  line-height: 1.4em;
+  display: block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000366}}
+body article header img,
+body .item img {
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.33);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.33);
+  margin-bottom: 0.5em;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000370}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000371}}
+body aside section {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #d9d9d9;
+  -webkit-box-shadow: 0 1px 0 #fff;
+  box-shadow: 0 1px 0 #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000376}}
+body aside :last-child,
+body aside .widget_search {
+  border-bottom: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 0.25em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000380}}
+body aside h3 {
+  color: #b54079;
+  text-align: right;
+  clear: right;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000384}}
+body aside h4,
+body aside h5 {
+  color: #333;
+  font-family: district_prothin;
+  font-size: 1em;
+  clear: right;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000389}}
+body aside h4 {
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: -1.25em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000393}}
+body aside h5 {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\0000396}}
+body aside dl {
+  margin: 0;
+  clear: right;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003101}}
+body aside dl dt {
+  float: left;
+  clear: right;
+  padding-left: 1em;
+  background: url("../img/bullet.png") no-repeat 0px 10px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003106}}
+body aside dl dd {
+  float: right;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003109}}
+body .button,
+body input[type=submit] {
+  font: 2.5em blanchcaps;
+  color: #f9fcf6;
+  text-shadow: 0px -1px #7ea83b, 0px 1px #e8f2d9;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 0.5em 0.12em;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #c6dda0), color-stop(0.1, #a3c967), color-stop(1, #8cbb42));
+  background: -webkit-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: -moz-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: -o-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: -ms-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  border: 1px solid #7ea83b;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003119}}
+body .button:hover,
+body input[type=submit]:hover {
+  -webkit-box-shadow: 0 2px 7px rgba(0,0,0,0.33);
+  box-shadow: 0 2px 7px rgba(0,0,0,0.33);
+  color: #f9fcf6;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003122}}
+body .button:active,
+body input[type=submit]:active {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #698c31), color-stop(0.1, #779f38), color-stop(0.95, #85b23f), color-stop(1, #7ea83b));
+  background: -webkit-linear-gradient(top, #698c31 0%, #779f38 10%, #85b23f 95%, #7ea83b 100%);
+  background: -moz-linear-gradient(top, #698c31 0%, #779f38 10%, #85b23f 95%, #7ea83b 100%);
+  background: -o-linear-gradient(top, #698c31 0%, #779f38 10%, #85b23f 95%, #7ea83b 100%);
+  background: -ms-linear-gradient(top, #698c31 0%, #779f38 10%, #85b23f 95%, #7ea83b 100%);
+  background: linear-gradient(top, #698c31 0%, #779f38 10%, #85b23f 95%, #7ea83b 100%);
+  color: #f4f8ec;
+  -webkit-box-shadow: 0 1px 0px #fff;
+  box-shadow: 0 1px 0px #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003127}}
+body time {
+  background: url("../img/bg_cal.png") no-repeat;
+  color: #fff;
+  display: block;
+  width: 2.3em;
+  padding: 0.3em 0.25em 0.25em 0.5em;
+  font: 1.8em blanchcaps;
+  overflow: hidden;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003135}}
+body time span {
+  width: 1.5em;
+  float: right;
+  text-align: right;
+  top: 0;
+  left: 0;
+  font-size: 0.6em;
+  margin-top: -0.1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003144}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003145}}
+body > header > div {
+  position: relative;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003147}}
+body > header nav ul {
+  list-style: none;
+  margin: 0;
+  margin-top: 1em;
+  padding: 0;
+  border-bottom: 1px solid #53b6e1;
+  border-top: 1px solid #2292c3;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003154}}
+body > header nav ul li {
+  padding: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003156}}
+body > header nav ul li a {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  text-align: center;
+  line-height: 1.8em;
+  color: #fff;
+  font-family: $;
+  font-size: 1.4em;
+  margin: 0;
+  border-bottom: 1px solid #2292c3;
+  border-top: 1px solid #53b6e1;
+  text-shadow: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003166}}
+body > header nav ul li :hover {
+  color: #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003168}}
+body > header nav ul li ul {
+  background: #2292c3;
+  font-size: 0.8em;
+  border-top: 1px solid #2089b7;
+  margin-top: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003173}}
+body > header nav ul li ul li {
+  margin-left: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003175}}
+body > header nav ul li ul li a {
+  border: none;
+  line-height: 1.8em;
+  border-bottom: 1px solid #2089b7;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003180}}
+body > header .cta {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #2292c3;
+  border-top: 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003188}}
+body > header .cta li {
+  list-style: none;
+  overflow: hidden;
+  display: inline-block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003192}}
+body > header .cta li a {
+  width: 42px;
+  height: 38px;
+  padding: 4px;
+  display: block;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #40aede), color-stop(1, #2292c3));
+  background: -webkit-linear-gradient(top, #40aede 0%, #2292c3 100%);
+  background: -moz-linear-gradient(top, #40aede 0%, #2292c3 100%);
+  background: -o-linear-gradient(top, #40aede 0%, #2292c3 100%);
+  background: -ms-linear-gradient(top, #40aede 0%, #2292c3 100%);
+  background: linear-gradient(top, #40aede 0%, #2292c3 100%);
+  border: 1px solid #53b6e1;
+  border-top: 0;
+  color: #ecf7fc;
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003203}}
+body > header .cta li a:hover {
+  color: #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003205}}
+body > header .cta li a i.icon-4water {
+  background: url("../img/logo-small-embossed.png") no-repeat;
+  height: 30px;
+  width: 25px;
+  display: block;
+  position: relative;
+  left: 3px;
+  top: -2px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003214}}
+body > header .bannerad {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../img/banner-narrow.png") no-repeat;
+  color: #3b3c50;
+  overflow: hidden;
+  padding: 5.5em 0.5em 0.5em;
+  margin: 1.5em 0 1em;
+  font-size: 0.8em;
+  line-height: 1.4em;
+  text-align: left;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003226}}
+body > header .bannerad h3 {
+  display: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003228}}
+body > header .bannerad p {
+  float: left;
+  margin: 0;
+  text-align: center;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003232}}
+body > header .bannerad span {
+  background: url("../img/get-one.png") no-repeat center;
+  padding: 5px 8px;
+  color: #fff;
+  text-transform: uppercase;
+  float: right;
+  position: relative;
+  margin-top: 0.5em;
+  cursor: pointer;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003242}}
+body > header .extended-cta {
+  padding: 0.25em 0;
+  clear: both;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1d80ab), color-stop(0.08, #40aede));
+  background: -webkit-linear-gradient(top, #1d80ab 0%, #40aede 8%);
+  background: -moz-linear-gradient(top, #1d80ab 0%, #40aede 8%);
+  background: -o-linear-gradient(top, #1d80ab 0%, #40aede 8%);
+  background: -ms-linear-gradient(top, #1d80ab 0%, #40aede 8%);
+  background: linear-gradient(top, #1d80ab 0%, #40aede 8%);
+  margin-bottom: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003247}}
+body > header .extended-cta p {
+  font-family: 'Swanky and Moo Moo';
+  font-size: 1.4em;
+  background: url("../img/facebook.png") no-repeat center left;
+  color: #196e92;
+  text-shadow: none;
+  margin: 0.25em 0em;
+  display: inline;
+  padding-left: 26px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003256}}
+body > header .extended-cta p a {
+  color: #d9eff8;
+  background: url("../img/underline.png") no-repeat bottom;
+  padding-bottom: 0.3em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003261}}
+body > header.root {
+  background: #40aede;
+  -webkit-box-shadow: 0 0 7px rgba(0,0,0,0.2);
+  box-shadow: 0 0 7px rgba(0,0,0,0.2);
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003264}}
+body > header.root > div {
+  *zoom: 1;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  *zoom: 1;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+body > header.root > div:before,
+body > header.root > div:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+body > header.root > div:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+body > header.root > div:before,
+body > header.root > div:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+body > header.root > div:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003268}}
+body > header.root > div >* {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003270}}
+body > header.root > div .logo {
+  margin: 1em auto;
+  padding-right: 1em;
+  max-height: 200px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003274}}
+body > header.root > div .logo img {
+  margin: auto;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003277}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003278}}
+body > header.child a.logo {
+  float: none;
+  margin-bottom: 0.5em;
+  padding-top: 1.3em;
+  display: block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003283}}
+body > header.child a.logo img {
+  width: auto;
+  margin: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003286}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003287}}
+body > header.child nav ul {
+  background: #40aede;
+  border: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003290}}
+body > header.child nav ul a {
+  text-align: left;
+  padding: 0 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003293}}
+body > header.child nav ul ul {
+  background: #2292c3;
+  border-top: 1px solid #2089b7;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003296}}
+body > header.child nav ul ul a {
+  border-bottom: 1px solid #2089b7;
+  padding: 0 1.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003299}}
+body > header.child nav ul.submenu {
+  background: #eab431;
+  margin-bottom: 1em;
+  border: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003303}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003304}}
+body > header.child nav ul.submenu li a {
+  border-bottom: 1px solid #cd9815;
+  border-top: 1px solid #ecbc46;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003307}}
+body > header.child nav ul.submenu li ul {
+  background: #cd9815;
+  border-top: 1px solid #c18e14;
+  border: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003311}}
+body > header.child nav ul.submenu li ul li a {
+  border-top: none;
+  border-bottom: 1px solid #c18e14;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003314}}
+body > header.child .extended-cta {
+  display: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003316}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003317}}
+body > header.child .cta li a {
+  width: auto;
+  height: auto;
+  padding: 4px 10px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003321}}
+body > header.child .cta li a i {
+  display: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003324}}
+body > section,
+footer>div {
+  *zoom: 1;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+body > section:before,
+footer>div:before,
+body > section:after,
+footer>div:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+body > section:after,
+footer>div:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003328}}
+.multihero {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003333}}
+.multihero ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 500%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003338}}
+.multihero ul li {
+  width: 20%;
+  float: left;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003343}}
+.multihero ul li img {
+  display: block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003345}}
+.multihero ul li div {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #8cbb42), color-stop(1, #98c354));
+  background: -webkit-linear-gradient(top, #8cbb42 0%, #98c354 100%);
+  background: -moz-linear-gradient(top, #8cbb42 0%, #98c354 100%);
+  background: -o-linear-gradient(top, #8cbb42 0%, #98c354 100%);
+  background: -ms-linear-gradient(top, #8cbb42 0%, #98c354 100%);
+  background: linear-gradient(top, #8cbb42 0%, #98c354 100%);
+  -webkit-box-shadow: 0 0 7px rgba(0,0,0,0.2);
+  box-shadow: 0 0 7px rgba(0,0,0,0.2);
+  color: #fff;
+  padding: 0.5em 1em;
+  overflow: hidden;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003351}}
+.multihero ul li div h3 {
+  margin: 0em;
+  font-size: 1.8em;
+  line-height: 1em;
+  text-shadow: -1px -1px #62832e, 1px 1px #afd07a;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003356}}
+.multihero ul li div p {
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  text-shadow: -1px -1px #7ea83b, 1px 1px #afd07a;
+  margin: 0;
+  margin-bottom: 0.25em;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003364}}
+.multihero .carousel-control {
+  position: absolute;
+  top: 8%;
+  right: 0;
+  width: 50px;
+  height: 90px;
+  text-indent: 100%;
+  overflow: hidden;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003372}}
+.multihero .left {
+  right: 51px;
+  background: rgba(0,0,0,0.7) url("../img/hero-left.png") no-repeat 12px 16px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003375}}
+.multihero .right {
+  background: rgba(0,0,0,0.7) url("../img/hero-right.png") no-repeat 16px 16px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003378}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003379}}
+.wateraid ul li div {
+  right: 0;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003385}}
+.wateraid ul li div a {
+  color: #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003387}}
+.wateraid .carousel-control {
+  left: 0;
+  right: auto;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003390}}
+.wateraid .right {
+  left: 51px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003393}}
+.mission {
+  margin-bottom: 1.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003395}}
+.mission h1 {
+  margin-top: 0.25em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #dbdbdb;
+  position: relative;
+  z-index: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003402}}
+.mission h1:after {
+  content: "";
+  border-color: #fff transparent transparent transparent;
+  border-style: solid;
+  border-width: 8px;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  margin-left: -8px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003412}}
+.mission h1:before {
+  content: "";
+  border-color: #dbdbdb transparent transparent transparent;
+  border-style: solid;
+  border-width: 9px;
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  margin-left: -9px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003422}}
+.mission p {
+  font-size: 1.2em;
+  padding-bottom: 1.25em;
+  padding-top: 0.5em;
+  border-bottom: 1px solid #dbdbdb;
+  -webkit-box-shadow: 0px 2px 0 #fff;
+  box-shadow: 0px 2px 0 #fff;
+  text-align: center;
+  margin-bottom: 0.25em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003431}}
+.donations {
+  margin-top: -0.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003433}}
+.donations span {
+  font: 6em arial;
+  font-weight: bold;
+  color: #f92;
+  text-shadow: 0px -2px 0px #ca6d00;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003438}}
+.donations small {
+  font: 1.5em blanchcaps;
+  color: #f92;
+  display: block;
+  text-align: left;
+  margin-top: -0.5em;
+  margin-bottom: 0.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003445}}
+.donations .button {
+  float: left;
+  margin-right: 0.25em;
+  padding: 0 1.1em 0.12em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003449}}
+.donations .secondary_cta {
+  font-size: 0.8em;
+  text-align: left !important;
+  line-height: 1.2em;
+  position: relative;
+  top: 0.25em;
+  float: left;
+  width: 51%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003458}}
+.worldmap,
+.donations {
+  text-align: center;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #dbdbdb;
+  -webkit-box-shadow: 0 2px 0px #fff;
+  box-shadow: 0 2px 0px #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003464}}
+.item {
+  font-size: 0.9em;
+  line-height: 1.4em;
+  margin: 1em 0;
+  overflow: hidden;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003469}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003471}}
+.item p {
+  margin-bottom: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003473}}
+.item ul {
+  list-style: none;
+  padding-left: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003476}}
+.item ul li {
+  padding-left: 1.25em;
+  line-height: 1.75em;
+  background: url("../img/bullet.png") no-repeat 0 10px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003480}}
+.item ul li a {
+  font-weight: bold;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003482}}
+.item .variations {
+  list-style: none;
+  padding: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003485}}
+.item .variations li {
+  padding: 0;
+  background: none;
+  clear: both;
+  margin-bottom: 1em;
+  line-height: 1.4em;
+  overflow: hidden;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003492}}
+.item .variations li strong {
+  float: left;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003494}}
+.item .variations li strong small {
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #f92;
+  display: block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003501}}
+.item .variations li form {
+  float: right;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003504}}
+.columns > div {
+  clear: left;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003507}}
+.rows .item {
+  margin-bottom: 2em;
+  overflow: hidden;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003510}}
+.rows .item img {
+  float: left;
+  margin-right: 2em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003514}}
+#comments > ol {
+  padding: 0;
+  list-style: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003517}}
+#comments > ol >li {
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid #d9d9d9;
+  -webkit-box-shadow: 0 2px 0 #fff;
+  box-shadow: 0 2px 0 #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003522}}
+#comments > ol >li img {
+  margin-right: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003524}}
+#comments > ol >li time {
+  background: none;
+  font-family: district_prothin;
+  font-size: 1em;
+  width: auto;
+  padding: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003532}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003533}}
+body > section > aside .widget_search form {
+  position: relative;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003535}}
+body > section > aside .widget_search form label {
+  position: absolute;
+  top: -999px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003538}}
+body > section > aside .widget_search form #s {
+  width: 100%;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  border: none;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0,0,0,0.25);
+  box-shadow: inset 0 1px 4px rgba(0,0,0,0.25);
+  font: 1.6em blanchcaps;
+  padding: 0.35em;
+  text-indent: 0.5em;
+  color: #28a4da;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003548}}
+body > section > aside .widget_search form #s:focus {
+  outline: none;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #f7fcfe));
+  background: -webkit-linear-gradient(top, #fff 0%, #f7fcfe 100%);
+  background: -moz-linear-gradient(top, #fff 0%, #f7fcfe 100%);
+  background: -o-linear-gradient(top, #fff 0%, #f7fcfe 100%);
+  background: -ms-linear-gradient(top, #fff 0%, #f7fcfe 100%);
+  background: linear-gradient(top, #fff 0%, #f7fcfe 100%);
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003551}}
+body > section > aside .widget_search form #searchsubmit {
+  margin-top: 0;
+  position: absolute;
+  right: 4px;
+  top: 6px;
+  width: 45px;
+  height: 45px;
+  -webkit-border-radius: 45px;
+  border-radius: 45px;
+  padding: 0;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  text-indent: 100%;
+  background: url("../img/search.png") no-repeat 13px 13px, -webkit-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: url("../img/search.png") no-repeat 13px 13px, -moz-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: url("../img/search.png") no-repeat 13px 13px, -o-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: url("../img/search.png") no-repeat 13px 13px, -ms-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: url("../img/search.png") no-repeat 13px 13px, -webkit-gradient(linear, left top, left bottom, color-stop(0, #c6dda0), color-stop(0.1, #a3c967), color-stop(1, #8cbb42));
+  background: url("../img/search.png") no-repeat 13px 13px, -webkit-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: url("../img/search.png") no-repeat 13px 13px, -moz-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: url("../img/search.png") no-repeat 13px 13px, -o-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: url("../img/search.png") no-repeat 13px 13px, -ms-linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+  background: url("../img/search.png") no-repeat 13px 13px, linear-gradient(top, #c6dda0 0%, #a3c967 10%, #8cbb42 100%);
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003567}}
+body > section > aside .widget_search form #searchsubmit:active {
+  -webkit-box-shadow: 0 1px 0px #fff;
+  box-shadow: 0 1px 0px #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003569}}
+body > section > aside .widget_recent_comments ul {
+  padding: 0;
+  margin-top: 0.5em;
+  list-style: none;
+  font-size: 0.85em;
+  line-height: 1.4em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003575}}
+body > section > aside .widget_recent_comments ul li {
+  margin-bottom: 0.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003577}}
+body > section > aside .widget_recent_comments ul p {
+  margin-bottom: 0em;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  color: #40aede;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003584}}
+body > section > aside .widget_recent_comments ul span {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #898989;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003588}}
+body > section > aside .widget_recent_comments ul span em {
+  text-transform: lowercase;
+  font-style: normal;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003592}}
+body .voucher {
+  position: relative;
+  display: block;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003597}}
+body .voucher small {
+  position: absolute;
+  top: 0.3em;
+  right: 0.4em;
+  font-size: 0.4em;
+  width: 41%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003603}}
+body .voucher:hover small {
+  color: #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003605}}
+div.voucher {
+  font-size: 0.8em;
+  line-height: 1.4em;
+  margin-top: 0.6em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003609}}
+div.voucher span {
+  color: #8cbb42;
+  font-weight: bold;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003613}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003614}}
+.post-type-archive-tutorial section aside,
+.tax-tutorial_tag section aside,
+.tax-level section aside,
+.single-tutorial section aside {
+  margin-top: 0.6em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003616}}
+.post-type-archive-tutorial section aside h2,
+.tax-tutorial_tag section aside h2,
+.tax-level section aside h2,
+.single-tutorial section aside h2 {
+  margin-bottom: 0em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003618}}
+.post-type-archive-tutorial section aside > ul,
+.tax-tutorial_tag section aside > ul,
+.tax-level section aside > ul,
+.single-tutorial section aside > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003623}}
+.post-type-archive-tutorial section aside > ul > li > a,
+.tax-tutorial_tag section aside > ul > li > a,
+.tax-level section aside > ul > li > a,
+.single-tutorial section aside > ul > li > a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003626}}
+.post-type-archive-tutorial section aside > ul > li.active > a,
+.tax-tutorial_tag section aside > ul > li.active > a,
+.tax-level section aside > ul > li.active > a,
+.single-tutorial section aside > ul > li.active > a {
+  color: #3b3c50;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003628}}
+.post-type-archive-tutorial section aside > ul > li ul,
+.tax-tutorial_tag section aside > ul > li ul,
+.tax-level section aside > ul > li ul,
+.single-tutorial section aside > ul > li ul {
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003631}}
+.post-type-archive-tutorial section aside > ul > li ul li,
+.tax-tutorial_tag section aside > ul > li ul li,
+.tax-level section aside > ul > li ul li,
+.single-tutorial section aside > ul > li ul li {
+  list-style: none;
+  background: url("../img/bullet.png") no-repeat left 10px;
+  padding-left: 1.25em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003635}}
+.post-type-archive-tutorial section aside > ul > li ul li.active a,
+.tax-tutorial_tag section aside > ul > li ul li.active a,
+.tax-level section aside > ul > li ul li.active a,
+.single-tutorial section aside > ul > li ul li.active a {
+  color: #3b3c50;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003637}}
+.post-type-archive-tutorial section aside > ul > li.current-tutorial-ancestor > a,
+.tax-tutorial_tag section aside > ul > li.current-tutorial-ancestor > a,
+.tax-level section aside > ul > li.current-tutorial-ancestor > a,
+.single-tutorial section aside > ul > li.current-tutorial-ancestor > a {
+  color: #40aede !important;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003639}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003640}}
+.post-type-archive-tutorial section .tutorials .item,
+.tax-tutorial_tag section .tutorials .item,
+.tax-level section .tutorials .item,
+.single-tutorial section .tutorials .item {
+  clear: left;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003645}}
+body > footer {
+  background: url("../img/bg_footer.png");
+  font-size: 0.8em;
+  line-height: 1.6em;
+  -webkit-box-shadow: inset 0 0 7px rgba(0,0,0,0.2);
+  box-shadow: inset 0 0 7px rgba(0,0,0,0.2);
+  margin: 0 -7px;
+  padding: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003653}}
+body > footer h3 {
+  margin-top: 1em;
+  color: #8cbb42;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003657}}
+body > footer .summary {
+  margin-top: 1.6em;
+/*
+		background url(../img/footer_logo.png) no-repeat
+		padding-left 160px
+		*/
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003663}}
+body > footer .summary img {
+  float: left;
+  margin: 0.5em 1.5em 1em 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003666}}
+body > footer .summary p {
+  text-align: left;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003668}}
+body > footer .sponsors {
+  text-align: center;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003670}}
+body > footer .sponsors img {
+  margin-top: 0.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003672}}
+body > footer .mailing_list {
+  margin-bottom: 2em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003674}}
+body > footer .mailing_list p {
+  margin-bottom: 0.8em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003676}}
+body > footer .mailing_list small {
+  line-height: 1em;
+  float: left;
+  width: 56%;
+  margin-top: 0.9em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003681}}
+body > footer .mailing_list label input {
+  border: 1px solid #e6e6e6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003684}}
+body > footer .mailing_list .button {
+  float: right;
+  font-size: 2.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/pre-js\.styl}line{font-family:\00003690}}
+.map,
+.donations,
+.project-tutorial,
+.project-news {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\00003692}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\000031}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\000032}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\000033}}
+.js > body > header > div .logo {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 48.93617021276596%;
+  margin-right: 2.127659574468085%;
+  *width: 47.88541666666667%;
+  *margin-right: 2.083333333333333%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+.js > body > header > div .logo:before,
+.js > body > header > div .logo:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+.js > body > header > div .logo:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+.js > body > header > div .logo:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\000035}}
+.js > body > header > div .logo img {
+  width: 100%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\000037}}
+.js > body > header > div nav {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-right: 2.127659574468085%;
+  *width: 97.88541666666666%;
+  *margin-right: 2.083333333333333%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+.js > body > header > div nav:before,
+.js > body > header > div nav:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+.js > body > header > div nav:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+.js > body > header > div nav:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\000039}}
+.js > body > header > div nav ul {
+  margin-top: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000311}}
+.js > body > header > div .cta {
+  display: block;
+  width: auto;
+  position: absolute;
+  z-index: 2;
+  right: 1.8%;
+  top: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000318}}
+.js > body > header > div .cta li {
+  float: left;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000320}}
+.js > body > header > div .bannerad {
+  max-width: 150px;
+  margin-right: 1em;
+  clear: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000324}}
+.js > body > header > div .bannerad * {
+  float: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000326}}
+.js > body > header > div .bannerad span {
+  display: block;
+  text-align: center;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000330}}
+.js > body > header > div .extended-cta {
+  position: absolute;
+  bottom: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000334}}
+.js > body > header.root > div {
+  min-height: 213px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000336}}
+.js > body > header.root > div .cta {
+  float: right;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000339}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000340}}
+.js > body > header.child > div .cta {
+  border-top: 0;
+  z-index: 99999;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000343}}
+.js > body > header.child > div .cta a {
+  border-top: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000345}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000346}}
+.js > body > header.child > div nav > ul {
+  background-position: 95% 24px;
+  background-repeat: no-repeat;
+  background-image: url("../img/up-arrow.png");
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000350}}
+.js > body > header.child > div nav > ul.collapsed {
+  background-image: url("../img/down-arrow.png");
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000353}}
+.worldmap {
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000357}}
+.worldmap >div {
+  position: absolute;
+  z-index: 2;
+  background: #40aede;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-shadow: 0 -1px 0 #2089b7, 0 1px 0 #70c2e6;
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  color: #fff;
+  text-align: center;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000367}}
+.worldmap >div span {
+  display: block;
+  padding: 0.25em 0.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000370}}
+.worldmap >div a {
+  text-shadow: 0 -1px 0 #2089b7, 0 1px 0 #70c2e6;
+  color: #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000373}}
+.worldmap >div ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #5dbae3;
+  -webkit-box-shadow: 0 -1px 0 #249bcf;
+  box-shadow: 0 -1px 0 #249bcf;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000380}}
+.worldmap >div:hover,
+.worldmap >div:focus,
+.worldmap >div:active {
+  z-index: 3;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000382}}
+.worldmap >div:hover ul,
+.worldmap >div:focus ul,
+.worldmap >div:active ul {
+  display: block;
+padding-bottom
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000385}}
+.worldmap >div:hover ul li a,
+.worldmap >div:focus ul li a,
+.worldmap >div:active ul li a {
+  display: block;
+  padding: 0.25em 0.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000388}}
+.worldmap >div:hover ul li:hover a,
+.worldmap >div:focus ul li:hover a,
+.worldmap >div:active ul li:hover a {
+  background: #2089b7;
+  text-shadow: none;
+  color: #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000392}}
+.worldmap >div:hover ul li:hover:last-child a,
+.worldmap >div:focus ul li:hover:last-child a,
+.worldmap >div:active ul li:hover:last-child a {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000396}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000397}}
+.donations span {
+  font-size: 4em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\0000399}}
+.donations small {
+  text-align: center;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\00003102}}
+ul.popup-menu {
+  display: none;
+  position: absolute;
+  left: -50%;
+  border: none;
+  background: #40aede;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0.2em 0.2em rgba(0,0,0,0.2);
+  box-shadow: 0 0.2em 0.2em rgba(0,0,0,0.2);
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\00003110}}
+ul.popup-menu li {
+  padding: 0em 1em;
+  border-bottom: 2px groove #79c6e8;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\00003113}}
+ul.popup-menu :last-child {
+  border-bottom: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\00003115}}
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/mobile\.styl}line{font-family:\00003115}}
+@media all and (min-width: 560px) {
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\00003115}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\000031}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\000032}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\000033}}
+.js body > header div .extended-cta {
+  width: auto;
+  background: none;
+  position: absolute;
+  right: 0;
+  bottom: auto;
+  top: 5.1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000310}}
+.js body > header div .extended-cta p {
+  font-size: 1em;
+  padding-left: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000313}}
+.js body > header div .bannerad {
+  width: 390px;
+  max-width: none;
+  background: url("../img/banner-wide.png") no-repeat;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 1em;
+  padding: 0.7em 1em 0.25em 8.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000321}}
+.js body > header div .bannerad h3 {
+  display: block;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000325}}
+.js body > header div .bannerad p {
+  float: left;
+  text-align: left;
+  width: 60%;
+  line-height: 1.2em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000330}}
+.js body > header div .bannerad span {
+  display: inline;
+  float: right;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000333}}
+.js body > header .cta {
+  display: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000336}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000337}}
+.js body > header div .logo {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 23.404255319148938%;
+  margin-right: 2.127659574468085%;
+  *width: 22.885416666666664%;
+  *margin-right: 2.083333333333333%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+.js body > header div .logo:before,
+.js body > header div .logo:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+.js body > header div .logo:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+.js body > header div .logo:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000340}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000341}}
+.js body > header.child .logo {
+  margin-bottom: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000343}}
+.js body > header.child .extended-cta {
+  display: block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000345}}
+.js body > header.child .extended-cta p {
+  color: #525252;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000347}}
+.js body > header.child .extended-cta a {
+  color: #40aede;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000350}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000351}}
+.multihero .carousel-control {
+  top: 28%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000354}}
+.donations span {
+  font: 6em arial;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000357}}
+.columns .item {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 31.914893617021278%;
+  margin-right: 2.127659574468085%;
+  *width: 31.21875%;
+  *margin-right: 2.083333333333333%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+.columns .item:before,
+.columns .item:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+.columns .item:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+.columns .item:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000360}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000361}}
+.post-type-archive-tutorial section aside,
+.tax-tutorial_tag section aside,
+.tax-level section aside,
+.single-tutorial section aside {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 14.893617021276595%;
+  margin-right: 2.127659574468085%;
+  *width: 14.552083333333334%;
+  *margin-right: 2.083333333333333%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+.post-type-archive-tutorial section aside:before,
+.tax-tutorial_tag section aside:before,
+.tax-level section aside:before,
+.single-tutorial section aside:before,
+.post-type-archive-tutorial section aside:after,
+.tax-tutorial_tag section aside:after,
+.tax-level section aside:after,
+.single-tutorial section aside:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+.post-type-archive-tutorial section aside:after,
+.tax-tutorial_tag section aside:after,
+.tax-level section aside:after,
+.single-tutorial section aside:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+.post-type-archive-tutorial section aside:last-child,
+.tax-tutorial_tag section aside:last-child,
+.tax-level section aside:last-child,
+.single-tutorial section aside:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000363}}
+.post-type-archive-tutorial section .tutorials,
+.tax-tutorial_tag section .tutorials,
+.tax-level section .tutorials,
+.single-tutorial section .tutorials {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 82.97872340425532%;
+  margin-right: 2.127659574468085%;
+  *width: 81.21875%;
+  *margin-right: 2.083333333333333%;
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+.post-type-archive-tutorial section .tutorials:before,
+.tax-tutorial_tag section .tutorials:before,
+.tax-level section .tutorials:before,
+.single-tutorial section .tutorials:before,
+.post-type-archive-tutorial section .tutorials:after,
+.tax-tutorial_tag section .tutorials:after,
+.tax-level section .tutorials:after,
+.single-tutorial section .tutorials:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+.post-type-archive-tutorial section .tutorials:after,
+.tax-tutorial_tag section .tutorials:after,
+.tax-level section .tutorials:after,
+.single-tutorial section .tutorials:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+.post-type-archive-tutorial section .tutorials:last-child,
+.tax-tutorial_tag section .tutorials:last-child,
+.tax-level section .tutorials:last-child,
+.single-tutorial section .tutorials:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000367}}
+body > section aside {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 31.914893617021278%;
+  margin-right: 2.127659574468085%;
+  *width: 31.21875%;
+  *margin-right: 2.083333333333333%;
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+body > section aside:before,
+body > section aside:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+body > section aside:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+body > section aside:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000371}}
+footer {
+  padding: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000373}}
+footer .summary {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 48.93617021276596%;
+  margin-right: 2.127659574468085%;
+  *width: 47.88541666666667%;
+  *margin-right: 2.083333333333333%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+footer .summary:before,
+footer .summary:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+footer .summary:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+footer .summary:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000375}}
+footer .sponsors {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 23.404255319148938%;
+  margin-right: 2.127659574468085%;
+  *width: 22.885416666666664%;
+  *margin-right: 2.083333333333333%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+footer .sponsors:before,
+footer .sponsors:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+footer .sponsors:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+footer .sponsors:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000377}}
+footer .mailing_list {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 23.404255319148938%;
+  margin-right: 2.127659574468085%;
+  *width: 22.885416666666664%;
+  *margin-right: 2.083333333333333%;
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+footer .mailing_list:before,
+footer .mailing_list:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+footer .mailing_list:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+footer .mailing_list:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000380}}
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/tablet\.styl}line{font-family:\0000380}}
+@media all and (min-width: 960px) {
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000380}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\000031}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\000032}}
+.js body > header > div {
+  *zoom: 1;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+.js body > header > div:before,
+.js body > header > div:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+.js body > header > div:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\000035}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\000036}}
+.js body > header nav > ul > li {
+  position: relative;
+  float: left;
+  list-style: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000310}}
+.js body > header nav > ul > li > ul {
+  display: none;
+  position: absolute;
+  z-index: 999999;
+  left: 0;
+  top: 3.7em;
+  border: none;
+  background: #40aede;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0.1em 0.2em rgba(0,0,0,0.2);
+  box-shadow: 0 0.1em 0.2em rgba(0,0,0,0.2);
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000320}}
+.js body > header nav > ul > li > ul > li {
+  width: 100%;
+  padding: 0em 1em;
+  border-bottom: 1px solid #2292c3;
+  -webkit-box-shadow: 0 2px 0 #66bee5;
+  box-shadow: 0 2px 0 #66bee5;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000325}}
+.js body > header nav > ul > li > ul > li a {
+  text-align: center !important;
+  border: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000328}}
+.js body > header nav > ul > li > ul > li a :hover {
+  text-shadow: 0 -1px #196e92, 0 2px #8cceeb;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000330}}
+.js body > header nav > ul > li > ul :last-child {
+  border-bottom: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000333}}
+.js body > header nav > ul > li > ul :hover a {
+  position: static;
+  padding: 0 !important;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000336}}
+.js body > header nav > ul > li > ul :before {
+  content: "";
+  border-color: transparent transparent #40aede transparent;
+  border-style: solid;
+  border-width: 8px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  margin-left: -8px;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000345}}
+.js body > header nav > ul > li > ul > li.active a {
+  color: #155b7a;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000347}}
+.js body > header nav > ul > li > ul > li.active a:hover {
+  color: #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000349}}
+.js body > header nav > ul :hover ul {
+  display: block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000352}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000353}}
+.js body > header.root > div .logo {
+  margin-left: 0%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000355}}
+.js body > header.root > div nav {
+  overflow: visible;
+  position: absolute;
+  top: 158px;
+  right: 0;
+  text-align: right;
+  width: auto;
+  margin: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000363}}
+.js body > header.root > div nav > ul {
+  border: none;
+  position: relative;
+  left: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000367}}
+.js body > header.root > div nav > ul > li {
+  padding: 0 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000369}}
+.js body > header.root > div nav > ul > li a {
+  text-align: left;
+  border: none;
+  display: block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000373}}
+.js body > header.root > div nav > ul >li:hover {
+  padding-bottom: 0.25em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000375}}
+.js body > header.root > div nav > ul >li:hover > a {
+  position: relative;
+  top: -0.1em;
+  padding-bottom: 0.25em !important;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000379}}
+.js body > header.root > div nav > ul .active > a {
+  background: url("../img/primary_nav_active_marker.png") no-repeat bottom;
+  padding-bottom: 0.15em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000382}}
+.js body > header.root > div nav > ul ul {
+  background: #40aede;
+  border-top: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000385}}
+.js body > header.root > div nav > ul ul li.active a {
+  background: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000387}}
+.js body > header.root > div nav > ul ul li a:hover {
+  text-shadow: 0 -1px #196e92, 0 2px #8cceeb;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000391}}
+.js body > header.root > div .cta {
+  right: 1.8%;
+  display: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000395}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\0000396}}
+.js body > header.child .logo {
+  padding-top: 0;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003100}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003101}}
+.js body > header.child nav > ul {
+  background: none;
+  border: none;
+  position: relative;
+  left: -0.75em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003106}}
+.js body > header.child nav > ul > li {
+  padding: 0 0.75em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003108}}
+.js body > header.child nav > ul > li:hover {
+  padding-bottom: 0.2em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003110}}
+.js body > header.child nav > ul > li a {
+  border: none;
+  color: #40aede;
+  padding: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003114}}
+.js body > header.child nav > ul > li :hover {
+  color: #333;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003116}}
+.js body > header.child nav > ul > li ul {
+  left: -1em;
+  top: 3.2em;
+  background: #40aede;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003120}}
+.js body > header.child nav > ul > li ul li {
+  margin-right: 0;
+  padding: 0em 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003123}}
+.js body > header.child nav > ul > li ul li a {
+  color: #fff;
+  text-shadow: none;
+  display: block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003127}}
+.js body > header.child nav > ul > li ul :hover a {
+  text-shadow: 0 -1px #196e92, 0 2px #8cceeb;
+  padding: 0.5em 1em;
+  color: #fff;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003131}}
+.js body > header.child nav > ul > li ul .active > a {
+  color: #155b7a;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003133}}
+.js body > header.child nav > ul > li ul > li:before a {
+  border: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003135}}
+.js body > header.child nav > ul .active > a {
+  color: #333;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003137}}
+.js body > header.child nav ul.submenu {
+  clear: left;
+  border-top: 1px solid $white;
+  -webkit-box-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+  padding-top: 0.1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003142}}
+.js body > header.child nav ul.submenu li ul li a {
+  border: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003144}}
+.js body > header.child >div .cta {
+  top: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003146}}
+.js body > header.child .extended-cta {
+  bottom: 5.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003150}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003151}}
+body.blog > section > div,
+body.single-post > section > div {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 65.95744680851064%;
+  margin-right: 2.127659574468085%;
+  *width: 64.55208333333334%;
+  *margin-right: 2.083333333333333%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+body.blog > section > div:before,
+body.single-post > section > div:before,
+body.blog > section > div:after,
+body.single-post > section > div:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+body.blog > section > div:after,
+body.single-post > section > div:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+body.blog > section > div:last-child,
+body.single-post > section > div:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003154}}
+article.type-post {
+  position: relative;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003156}}
+article.type-post > header >time {
+  position: absolute;
+  top: 0;
+  left: -2.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003161}}
+body > section > aside {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 31.914893617021278%;
+  margin-right: 2.127659574468085%;
+  *width: 31.21875%;
+  *margin-right: 2.083333333333333%;
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+body > section > aside:before,
+body > section > aside:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+body > section > aside:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+body > section > aside:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003165}}
+article.class {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 65.95744680851064%;
+  margin-right: 2.127659574468085%;
+  *width: 64.55208333333334%;
+  *margin-right: 2.083333333333333%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+article.class:before,
+article.class:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+article.class:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+article.class:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003168}}
+.multihero {
+  -webkit-box-shadow: 0 0 2.5em rgba(0,0,0,0.25);
+  box-shadow: 0 0 2.5em rgba(0,0,0,0.25);
+  margin-top: 0.75em;
+  margin-bottom: 1.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003172}}
+.multihero ul li {
+  margin-bottom: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003174}}
+.multihero ul li div {
+  position: absolute;
+  top: 50%;
+  width: 60%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -webkit-box-shadow: 0 0.2em 7px rgba(0,0,0,0.6);
+  box-shadow: 0 0.2em 7px rgba(0,0,0,0.6);
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003181}}
+.multihero .carousel-control {
+  top: 40%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003184}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003185}}
+.wateraid ul li div {
+  top: 42%;
+  width: 50%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003189}}
+.primary li {
+  float: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003192}}
+.worldmap,
+.donations,
+.project-news,
+.project-tutorial {
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 48.93617021276596%;
+  margin-right: 2.127659574468085%;
+  *width: 47.88541666666667%;
+  *margin-right: 2.083333333333333%;
+  text-align: left;
+  border-bottom: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000034}}
+.worldmap:before,
+.donations:before,
+.project-news:before,
+.project-tutorial:before,
+.worldmap:after,
+.donations:after,
+.project-news:after,
+.project-tutorial:after {
+  content: "";
+  display: table;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/goodies\.styl}line{font-family:\000037}}
+.worldmap:after,
+.donations:after,
+.project-news:after,
+.project-tutorial:after {
+  clear: both;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/Parent\/css\/jeet\/framework\.styl}line{font-family:\0000344}}
+.worldmap:last-child,
+.donations:last-child,
+.project-news:last-child,
+.project-tutorial:last-child {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003198}}
+.worldmap {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 1%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003202}}
+.worldmap img {
+  left: -0.75em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003205}}
+.donations {
+  margin-left: 1%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003207}}
+.donations small {
+  text-align: left;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003211}}
+.donations,
+.project-tutorial {
+  margin-right: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003214}}
+footer h3 {
+  text-align: left;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003217}}
+.localmap {
+  background: url("../img/bg-map.png") no-repeat;
+  -webkit-background-size: 310px 310px;
+  -moz-background-size: 310px 310px;
+  background-size: 310px 310px;
+  padding: 20px;
+  padding-bottom: 2em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003222}}
+#localmap {
+  width: 270px;
+  height: 270px;
+  border: 1px solid #f5f5f5;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003227}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003228}}
+.post-type-archive-tutorial section .tutorials .item iframe,
+.tax-tutorial_tag section .tutorials .item iframe,
+.tax-level section .tutorials .item iframe,
+.single-tutorial section .tutorials .item iframe {
+  float: left;
+  margin-right: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/desktop\.styl}line{font-family:\00003231}}
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/ie\.styl}line{font-family:\00003231}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/ie\.styl}line{font-family:\000031}}
+.multihero ul li div,
+.button {
+  background: #8cbb42;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Iain\/Projects\/4WATER\/Development\/content\/themes\/4water\/css\/ie\.styl}line{font-family:\000034}}
+body > header .cta li a {
+  baclground: #40aede;
+}

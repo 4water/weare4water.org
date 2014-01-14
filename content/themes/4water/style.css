@@ -1,0 +1,16 @@
+/*
+Theme Name:         4WATER
+Theme URI:          http://www.intraspin.com
+Description:        A theme framework
+Version:            0.1
+Author:             Iain Porter
+Author URI:         http://intraspin.com
+
+Template: 			Parent
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+@import '../Parent/css/font-awesome.css';
+@import 'font/fonts.css';
+@import 'css/style.css';

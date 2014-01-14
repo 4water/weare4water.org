@@ -1,0 +1,13 @@
+@import 'jeet/framework'
+@import 'jeet/goodies'
+@import 'jeet/typography'
+@import 'jeet/nib/image'
+
+IR(path, w = auto, h = auto)
+	text-indent 100%
+	white-space nowrap
+	overflow hidden
+	image(path, w, h)
+	
+	height h
+	display block

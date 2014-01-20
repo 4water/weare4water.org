@@ -1,10 +1,10 @@
 weare4water.org
 ===============
 
-* Please list any issues with weare4water.org on the Issues page
+Please list any issues with weare4water.org on the Issues page
 
 Developers
-==========
+----------
 Assuming you have a working knowledge of MAMP/WAMP/XAMP, address one of the issues on the Issues page as follows:
 
 * 'Fork' the repository

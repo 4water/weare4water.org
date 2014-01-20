@@ -1,7 +1,7 @@
 weare4water.org
 ===============
 
-Please list any issues with weare4water.org on the Issues page
+Please list any issues with weare4water.org on the [Issues page](https://github.com/4water/weare4water.org/issues)
 
 Developers
 ----------

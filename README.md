@@ -7,7 +7,7 @@ Developers
 ----------
 Assuming you have a working knowledge of MAMP/WAMP/XAMP, address one of the issues on the Issues page as follows:
 
-* 'Fork' the repository
+* 'Fork' the repository ([help](https://help.github.com/articles/fork-a-repo))
 * Create a 'branch' and 'clone' this branch to your desktop development environment
 * Create a new MySQL database and user
 * Update wp-config-development-sample.php accordingly and rename to wp-config-development.php

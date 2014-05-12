@@ -1,15 +1,15 @@
 <?php
 
-if ( !defined('ABSPATH') )	define('ABSPATH', dirname(__FILE__) . '/');
+if ( !defined('ABSPATH') )				define('ABSPATH', dirname(__FILE__) . '/');
 
 /* Set Server Booleans */
-define('WP_DEVELOPMENT', 				file_exists(ABSPATH . '../wp-config-development.php'));
-define('WP_STAGING', 					file_exists(ABSPATH . '../wp-config-staging.php'));
-define('WP_PRODUCTION', 				file_exists(ABSPATH . '../wp-config-production.php'));
+define('IS_DEVELOPMENT', 				$_SERVER['SERVER_ADDR'] == '127.0.0.1');
+define('IS_STAGING', 					strpos($_SERVER['SCRIPT_FILENAME'], 'staging') != false);
+define('IS_PRODUCTION', 				strpos($_SERVER['SCRIPT_FILENAME'], 'live') != false);
 
 /* Server-Specific Configuration */
-if 		(WP_DEVELPPMENT)				require ABSPATH . '../wp-config-development.php';
-elseif 	(WP_STAGING)					require ABSPATH . '../wp-config-staging.php';
+if 		(IS_DEVELPPMENT)				require ABSPATH . '../wp-config-development.php';
+elseif 	(IS_STAGING)					require ABSPATH . '../wp-config-staging.php';
 else 									require ABSPATH . '../wp-config-production.php';
 
 /* Server-Generic Configuration */
@@ -18,13 +18,13 @@ define('DB_CHARSET', 					'utf8');
 define('DB_COLLATE', 					'');
 $table_prefix = 'ft_';
 define('CUSTOM_USER_TABLE',				$table_prefix . 'users');
-		
+
 define('WP_SITEURL', 					'http://'.DOMAIN.'/');
 define('WP_HOME', 						'http://'.DOMAIN);
 define('WP_CONTENT_URL',				DOMAIN . '/content');
 define('WP_CONTENT_DIR',				realpath(ABSPATH.'../content'));
 define('WPCACHEHOME', 					WP_CONTENT_DIR . '/plugins/wp-super-cache/');
-		
+
 define('MULTISITE', 					true);
 define('SUNRISE', 						true); // supports nested urls like /salsa/glasgow
 define('SUBDOMAIN_INSTALL', 			false);

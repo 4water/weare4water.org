@@ -19,7 +19,7 @@
 						alert('Postcode not found');
 					}
 				});
-				localSearch.execute(postcode);
+				localSearch.execute(postcode + ", <?php the_field('country'); ?>");
 			}
 
 			function drawMap(latlng) {

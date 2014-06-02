@@ -19,7 +19,7 @@
 						alert('Postcode not found');
 					}
 				});
-				localSearch.execute(postcode + ", UK");
+				localSearch.execute(postcode);
 			}
 
 			function drawMap(latlng) {

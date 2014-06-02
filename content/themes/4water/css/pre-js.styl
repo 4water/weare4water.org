@@ -11,7 +11,7 @@ html
 body
 	margin 0
 	h1,h2,h3,h4,h5,h6, nav a
-		font 1.6em $display
+		font 1.6em/0.9em $display
 	h1,h2,h3,h4,h5,h6
 		text-shadow 0px 1px white
 	h1, .item h2
@@ -33,7 +33,7 @@ body
 	img
 		max-width 100%
 		height auto
-		
+
 	form
 		label
 			display block
@@ -230,7 +230,7 @@ body > header
 			margin 0
 			text-align center
 		span
-			background url(../img/get-one.png) no-repeat center		
+			background url(../img/get-one.png) no-repeat center
 			padding 5px 8px
 			color white
 			text-transform uppercase
@@ -244,7 +244,7 @@ body > header
 		clear both
 		background linear-gradient(top, darken($blue, 30%), $blue 8%)
 		margin-bottom 0
-		p	
+		p
 			font-family $display
 			font-size 1.4em
 			background url(../img/facebook.png) no-repeat center left
@@ -300,7 +300,7 @@ body > header.child
 			background #EAB431
 			margin-bottom 1em
 			border none
-			li 
+			li
 				a
 					border-bottom 1px solid darken(#EAB431, 20%)
 					border-top 1px solid lighten(#EAB431, 10%)
@@ -315,16 +315,19 @@ body > header.child
 		display none
 	.cta
 		li a
-			width auto
-			height auto
-			padding 4px 10px
+			width 36px
+			height 40px
+			background $blue url(../img/icon.png) no-repeat center center
+			display block
+			text-indent 100%
+			overflow hidden
 			i
 				display none
 
 body > section, footer>div
 	center(960px, 0)
 
-		
+
 .multihero
 	position relative
 	overflow hidden
@@ -388,7 +391,7 @@ body > section, footer>div
 		left 0
 		right auto
 	.right
-		left 51px	
+		left 51px
 
 .mission
 	margin-bottom 1.5em
@@ -441,7 +444,7 @@ body > section, footer>div
 		display block
 		text-align left
 		margin-top -0.5em
-		margin-bottom 0.5em	
+		margin-bottom 0.5em
 	.button
 		float left
 		margin-right 0.25em
@@ -473,7 +476,7 @@ body > section, footer>div
 	ul
 		list-style none;
 		padding-left 1em
-		li 
+		li
 			padding-left 1.25em
 			line-height 1.75em
 			background url(../img/bullet.png) no-repeat 0 10px
@@ -488,7 +491,7 @@ body > section, footer>div
 			clear both
 			margin-bottom 1em
 			line-height 1.4em
-			overflow hidden 
+			overflow hidden
 			strong
 				float left
 				small
@@ -594,7 +597,7 @@ body .voucher
 	display block
 	padding-left 0.3em
 	padding-right 0.3em
-	small 
+	small
 		position absolute
 		top 0.3em
 		right 0.4em
@@ -625,7 +628,7 @@ div.voucher
 				font-weight bold
 			> li.active > a
 				color $black
-			> li ul 
+			> li ul
 				padding 0
 				margin-bottom 1em
 				li
@@ -646,7 +649,7 @@ div.voucher
 			col(12)
 			&.next
 				text-align right
-			
+
 
 
 body > footer

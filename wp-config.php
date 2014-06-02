@@ -8,7 +8,7 @@ define('IS_STAGING', 					strpos($_SERVER['SCRIPT_FILENAME'], 'staging') != fals
 define('IS_PRODUCTION', 				strpos($_SERVER['SCRIPT_FILENAME'], 'live') != false);
 
 /* Server-Specific Configuration */
-if 		(IS_DEVELPPMENT)				require ABSPATH . '../wp-config-development.php';
+if 		(IS_DEVELOPMENT)				require ABSPATH . '../wp-config-development.php';
 elseif 	(IS_STAGING)					require ABSPATH . '../wp-config-staging.php';
 else 									require ABSPATH . '../wp-config-production.php';
 
@@ -24,6 +24,7 @@ define('WP_HOME', 						'http://'.DOMAIN);
 define('WP_CONTENT_URL',				DOMAIN . '/content');
 define('WP_CONTENT_DIR',				realpath(ABSPATH.'../content'));
 define('WPCACHEHOME', 					WP_CONTENT_DIR . '/plugins/wp-super-cache/');
+define('CORE_UPGRADE_SKIP_NEW_BUNDLED',	true );
 
 define('MULTISITE', 					true);
 define('SUNRISE', 						true); // supports nested urls like /salsa/glasgow

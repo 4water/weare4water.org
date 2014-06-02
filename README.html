@@ -1,0 +1,26 @@
+<h1>weare4water.org</h1>
+
+<p>Please list any issues with weare4water.org on the <a href="https://github.com/4water/weare4water.org/issues">Issues page</a></p>
+
+<h2>Developers</h2>
+
+<p>Assuming you have a working knowledge of MAMP/WAMP/XAMP, address one of the issues on the Issues page as follows:</p>
+
+<ul>
+<li>&lsquo;Fork&rsquo; the repository (<a href="https://help.github.com/articles/fork-a-repo">help</a>)</li>
+<li>Create a &lsquo;branch&rsquo; and &lsquo;clone&rsquo; this branch to your desktop development environment</li>
+<li>OS X: Open terminal, type &lsquo;sudo pico /etc/hosts&rsquo; and add &lsquo;weare4water.org&rsquo; to the line starting &lsquo;127.0.0.1&rsquo;</li>
+<li><p>OS X: Open httpd.conf and, replacing YOUR_PATH with the location to which you forked the repository, add:</p>
+
+<pre><code>  &lt;VirtualHost *&gt;
+      DocumentRoot "YOUR_PATH"
+      ServerName weare4water.org
+  &lt;/VirtualHost&gt;
+</code></pre></li>
+<li><p>Copy the contents of wp-config-development-sample.php to wp-config-develompent.php</p></li>
+<li>Create a new MySQL database &lsquo;4water_dev&rsquo; - if default user &lsquo;root&rsquo; with password &lsquo;root&rsquo; doesn&rsquo;t have access to this database, modify wp-config-development.php accordingly</li>
+<li>Load weare4water.org in your browser - you can still see the live/production website at www.weare4water.org</li>
+<li>Create the content required to reproduce your target issue and test it&rsquo;s correction</li>
+<li>Once corrected commit your changes to your repository and submit a Pull Request for deployment to www.weare4water.org</li>
+</ul>
+

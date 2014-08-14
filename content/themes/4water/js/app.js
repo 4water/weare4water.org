@@ -10,7 +10,7 @@ $(function() {
 
 	$('<li><a href="#primary"><i class="icon-reorder icon-2x"></i>Menu</a></li>').prependTo('.root .cta');
 	setNavigation();
-	
+
 	setHeader();
 	$('header.child .cta').click(function (e) {
 		e.stopPropagation();
@@ -20,8 +20,8 @@ $(function() {
 			$(this).animate({top:'0px'}, 500);
 		} else {
 			$(this).addClass('close');
-			$('header.root').animate({top:'207px'}, 500);
-			$(this).animate({top:'207px'}, 500);
+			$('header.root').animate({top:'115px'}, 500);
+			$(this).animate({top:'115px'}, 500);
 		}
 	});
 
@@ -182,7 +182,7 @@ function setNavigation() {
 
 function setHeader() {
 	if ($('body > header').length > 1) {
-		$('header.root').css({margin:0, position:'relative', zIndex:999}).animate({marginTop:'-207px'}, 0);
+		$('header.root').css({margin:0, position:'relative', zIndex:999}).animate({marginTop:'-115px'}, 0);
 		$('header.root nav > ul .active a').css('background', 'none');
 	}
 }

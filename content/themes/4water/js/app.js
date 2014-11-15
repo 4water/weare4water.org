@@ -1,4 +1,4 @@
-// @codekit-prepend 'jquery-1.8.3.min.js', 'jquery.placeholder.min.js', 'selectivizr-min.js', 'modernizr-2.6.2-respond-1.1.0.min.js';
+// @codekit-prepend '../../Parent/js/vendor/jquery-1.9.1.min.js', '../../Parent/js/vendor/jquery.placeholder.min.js', '../../Parent/js/vendor/selectivizr-min.js', '../../Parent/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js';
 
 WebFont.load({
     google: {

@@ -11,7 +11,7 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
 		<script src="/content/themes/Parent/js/vendor/selectivizr-1.0.2.min.js"></script>
 	<![endif]-->
-
+	<script>document.getElementsByTagName('html')[0].className += ' js';</script>
 	<title><?php wp_title('|', true, 'right'); ?></title>
 	<link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
 	<?php wp_head(); ?>

@@ -921,16 +921,8 @@ if(function_exists("register_field_group"))
 				),
 				array (
 					'key' => 'field_51ac5ce2d4da1',
-					'label' => 'Post Code',
+					'label' => 'Address',
 					'name' => 'post_code',
-					'type' => 'text',
-					'default_value' => '',
-					'formatting' => 'html',
-				),
-				array (
-					'key' => 'field_51ac5ce2d4df2',
-					'label' => 'Country',
-					'name' => 'country',
 					'type' => 'text',
 					'default_value' => '',
 					'formatting' => 'html',

@@ -1,42 +1,45 @@
 <aside>
 	<section class="localmap">
 		<div id="localmap"></div>
-		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 		<script type="text/javascript">
-			google.load("search", "1");
-			google.load("maps", "3", {other_params:'sensor=false'});
-			google.setOnLoadCallback(function () {
-				getLatLngFromPostCode('<?php the_field('post_code'); ?>', drawMap);
-			});
+			var geocoder;
+			var map;
 
-			function getLatLngFromPostCode(postcode, callbackFunc) {
-				var localSearch = new GlocalSearch();
-				localSearch.setSearchCompleteCallback(null, function() {
-					if (localSearch.results[0]) {
-						var latlng = new google.maps.LatLng(localSearch.results[0].lat, localSearch.results[0].lng)
-						callbackFunc(latlng);
-					} else {
-						alert('Postcode not found');
-					}
-				});
-				localSearch.execute(postcode + ", <?php the_field('country'); ?>");
+			function initialize() {
+			  geocoder = new google.maps.Geocoder();
+			  var latlng = new google.maps.LatLng(-34.397, 150.644);
+			  var mapOptions = {
+			    zoom: 15,
+				center: latlng,
+				mapTypeId: google.maps.MapTypeId.ROADMAP,
+				mapTypeControl: false,
+				streetViewControl: false
+			  }
+			  map = new google.maps.Map(document.getElementById('localmap'), mapOptions);
+
+			  codeAddress();
 			}
 
-			function drawMap(latlng) {
-				var map = new google.maps.Map(document.getElementById('localmap'), {
-					zoom: 15,
-					center: latlng,
-					mapTypeId: google.maps.MapTypeId.ROADMAP,
-					mapTypeControl: false,
-					streetViewControl: false
-				});
-
-				var marker = new google.maps.Marker({
-					map: map,
-					position:latlng,
-					title: 'Find us here!'
-				})
+			function codeAddress() {
+			  var address = "<?php the_field('post_code'); ?>";
+			  geocoder.geocode( { 'address': address}, function(results, status) {
+			    if (status == google.maps.GeocoderStatus.OK) {
+			      map.setCenter(results[0].geometry.location);
+			      var marker = new google.maps.Marker({
+			          map: map,
+			          position: results[0].geometry.location
+			      });
+			    } else {
+			      alert('Geocode was not successful for the following reason: ' + status);
+			    }
+			  });
 			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
 		</script>
 	</section>
 	<section>

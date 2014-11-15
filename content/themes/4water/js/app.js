@@ -11,6 +11,8 @@ $(function() {
 	$('<li><a href="#primary"><i class="icon-reorder icon-2x"></i>Menu</a></li>').prependTo('.root .cta');
 	setNavigation();
 
+	if ($('.child li.active').length > 2)	$('.child li.active').first().removeClass('active');
+
 	setHeader();
 	$('header.child .cta').click(function (e) {
 		e.stopPropagation();

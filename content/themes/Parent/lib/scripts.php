@@ -9,7 +9,7 @@ function roots_scripts() {
   if (is_single() && comments_open() && get_option('thread_comments'))  wp_enqueue_script('comment-reply');
 
   wp_register_script('fonts', '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js', false, null, false);
-  wp_register_script('combined', get_stylesheet_directory_uri() . '/js/app.combined.js?v=3', false, null, false);
+  wp_register_script('combined', get_stylesheet_directory_uri() . '/js/app.combined.js?v=4', false, null, false);
 
   wp_enqueue_script('fonts');
   wp_enqueue_script('combined');

@@ -31,30 +31,26 @@
 					?>
 				</section>
 			<?php endif; ?>
-
+			
 			<section class="project-news">
 				<?php
 					$news = new WP_Query(array(
 						'post_type'	=> 'post',
 						'showposts' => 1
 					));
-
+					
 					while ($news->have_posts()) : $news->the_post();
 						get_template_part('templates/listing', 'post');
 					endwhile;
 					wp_reset_postdata();
 				?>
 			</section>
-
 			<?php if (!is_salsa_site()) : ?>
 				<?php get_template_part('templates/worldmap'); ?>
 			<?php endif; ?>
-
 		<?php elseif (is_front_page() && is_city_site()) : ?>
-
 			<article class="class"><?php the_content(); ?></article>
 			<?php get_template_part('templates/class_details'); ?>
-
 		<?php else : ?>
 			<?php the_content(); ?>
 			<?php if (get_field('album_id'))	get_template_part('templates/fb-photos'); ?>
@@ -62,7 +58,6 @@
 		<?php endif; ?>
 
 		<?php get_template_part('templates/rows-columns'); ?>
-
+		
 	</section>
-	<?php wp_link_pages(array('before' => '<nav class="pagination">', 'after' => '</nav>')); ?>
 <?php endwhile; ?>

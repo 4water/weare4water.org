@@ -3,6 +3,7 @@
 		<a class="logo" href="<?php echo home_url(); ?>/">
 			<?php $img = wp_get_attachment_image_src( get_field('logo', 'options'), 'full'); ?>
 			<img src="<?php echo $img[0]; ?>" alt="4water">
+			<?php // img('logo.png', '4water logo'); ?>
 		</a>
 		<nav id="primary" class="primary" role="navigation">
 			<?php if (has_nav_menu('primary_navigation'))	wp_nav_menu(array('theme_location' => 'primary_navigation')); ?>

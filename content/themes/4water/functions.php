@@ -21,7 +21,7 @@ add_action('after_setup_theme', 'ft_register_image_sizes');
 if (function_exists('register_options_page')) {
 	register_options_page('General');
 	register_options_page('Header');
-	if (is_root_site())	register_options_page('Footer');
+	register_options_page('Footer');
 }
 
 function ft_register_data_structures() {

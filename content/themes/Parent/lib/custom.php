@@ -1,18 +1,5 @@
 <?php
 
-function vd($var) {
-	echo '<script type="text/javascript">if (!window.console) console = {}; console.log = console.log || function(){};';
-	if (!$var) echo 'console.log(false);';
-    if (is_object($var) || is_array($var)) {
-        echo 'var obj = '.str_replace("'","\'", json_encode($var)).';';
-        echo 'var val = eval( obj );';
-        echo 'console.log(val);';
-    } else {
-    	echo 'console.log("'.str_replace('"','\\"',$var).'");';
-    }
-    echo '</script>';
-}
-
 function img($filename, $alt_text) {
 	echo '<img src="'.get_bloginfo('stylesheet_directory').'/img/'.$filename.'" alt="'.$alt_text.'" />';
 }

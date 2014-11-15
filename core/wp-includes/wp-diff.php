@@ -154,7 +154,7 @@ class WP_Text_Diff_Renderer_Table extends Text_Diff_Renderer {
 		$r = '';
 		foreach ($lines as $line) {
 			if ( $encode )
-				$line = wp_kses_post( $line );
+				$line = htmlspecialchars( $line );
 			if ( $this->_show_split_view ) {
 				$r .= '<tr>' . $this->emptyLine() . $this->emptyLine() . $this->addedLine( $line ) . "</tr>\n";
 			} else {
@@ -176,7 +176,7 @@ class WP_Text_Diff_Renderer_Table extends Text_Diff_Renderer {
 		$r = '';
 		foreach ($lines as $line) {
 			if ( $encode )
-				$line = wp_kses_post( $line );
+				$line = htmlspecialchars( $line );
 			if ( $this->_show_split_view ) {
 				$r .= '<tr>' . $this->deletedLine( $line ) . $this->emptyLine() . $this->emptyLine() . "</tr>\n";
 			} else {
@@ -199,7 +199,7 @@ class WP_Text_Diff_Renderer_Table extends Text_Diff_Renderer {
 		$r = '';
 		foreach ($lines as $line) {
 			if ( $encode )
-				$line = wp_kses_post( $line );
+				$line = htmlspecialchars( $line );
 			if (  $this->_show_split_view ) {
 				$r .= '<tr>' . $this->contextLine( $line ) . $this->emptyLine() . $this->contextLine( $line )  . "</tr>\n";
 			} else {
@@ -391,48 +391,6 @@ class WP_Text_Diff_Renderer_Table extends Text_Diff_Renderer {
 		}
 
 		return array($orig_matches, $final_matches, $orig_rows, $final_rows);
-
-/*
-		// Debug
-		echo "\n\n\n\n\n";
-
-		echo "-- DEBUG Matches: Orig -> Final --";
-
-		foreach ( $orig_matches as $o => $f ) {
-			echo "\n\n\n\n\n";
-			echo "ORIG: $o, FINAL: $f\n";
-			var_dump($orig[$o],$final[$f]);
-		}
-		echo "\n\n\n\n\n";
-
-		echo "-- DEBUG Matches: Final -> Orig --";
-
-		foreach ( $final_matches as $f => $o ) {
-			echo "\n\n\n\n\n";
-			echo "FINAL: $f, ORIG: $o\n";
-			var_dump($final[$f],$orig[$o]);
-		}
-		echo "\n\n\n\n\n";
-
-		echo "-- DEBUG Rows: Orig -- Final --";
-
-		echo "\n\n\n\n\n";
-		foreach ( $orig_rows as $row => $o ) {
-			if ( $o < 0 )
-				$o = 'X';
-			$f = $final_rows[$row];
-			if ( $f < 0 )
-				$f = 'X';
-			echo "$o -- $f\n";
-		}
-		echo "\n\n\n\n\n";
-
-		echo "-- END DEBUG --";
-
-		echo "\n\n\n\n\n";
-
-		return array($orig_matches, $final_matches, $orig_rows, $final_rows);
-*/
 	}
 
 	/**

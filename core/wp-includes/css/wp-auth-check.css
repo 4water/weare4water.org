@@ -13,9 +13,9 @@
 	left: 0;
 	right: 0;
 	background: #000;
-	opacity: 0.5;
-	filter: alpha(opacity=50);
-	z-index: 1000000;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	z-index: 1000010; /* needs to appear above .notification-dialog */
 }
 
 #wp-auth-check-wrap #wp-auth-check {
@@ -24,14 +24,14 @@
 	overflow: hidden;
 	top: 40px;
 	bottom: 20px;
-	max-height: 435px;
+	max-height: 415px;
 	width: 380px;
 	margin: 0 0 0 -190px;
-	padding: 0;
-	background-color: #fbfbfb;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-	z-index: 1000001;
+	padding: 30px 0 0;
+	background-color: #eee;
+	z-index: 1000011; /* needs to appear above #wp-auth-check-bg */
+	-webkit-box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+	box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
 }
 
 #wp-auth-check-wrap.fallback #wp-auth-check {
@@ -40,7 +40,8 @@
 }
 
 #wp-auth-check-wrap #wp-auth-check-form {
-	background: url('../images/wpspin-2x.gif') no-repeat center center;
+	background: url(../images/wpspin-2x.gif) no-repeat center center;
+	-webkit-background-size: 16px 16px;
 	background-size: 16px 16px;
 	height: 100%;
 }
@@ -52,10 +53,34 @@
 }
 
 #wp-auth-check-wrap .wp-auth-check-close {
-	bottom: 10px;
-	display: none;
 	position: absolute;
-	right: 30px;
+	top: 8px;
+	right: 8px;
+	height: 22px;
+	width: 22px;
+	cursor: pointer;
+}
+
+#wp-auth-check-wrap .wp-auth-check-close:before {
+	content: '\f158';
+	display: block !important;
+	font: normal 20px/1 'dashicons';
+	speak: none;
+	height: 22px;
+	margin: 2px 0;
+	text-align: center;
+	width: 22px;
+	color: #777;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#wp-auth-check-wrap .wp-auth-check-close:hover:before {
+	color: #0074a2;
+}
+
+#wp-auth-check-wrap .wp-auth-check-close:focus {
+	outline: 1px dotted #888;
 }
 
 #wp-auth-check-wrap .wp-auth-fallback-expired {
@@ -65,7 +90,7 @@
 #wp-auth-check-wrap .wp-auth-fallback {
 	font-size: 14px;
 	line-height: 21px;
-	padding: 10px 25px;
+	padding: 0 25px;
 	display: none;
 }
 
@@ -73,4 +98,3 @@
 #wp-auth-check-wrap.fallback .wp-auth-check-close {
 	display: block;
 }
-

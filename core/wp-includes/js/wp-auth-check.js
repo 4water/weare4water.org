@@ -1,9 +1,13 @@
+/* global adminpage */
 // Interim login dialog
 (function($){
-	var wrap;
+	var wrap, next;
 
 	function show() {
-		var parent = $('#wp-auth-check'), form = $('#wp-auth-check-form'), noframe = wrap.find('.wp-auth-fallback-expired'), frame, loaded = false;
+		var parent = $('#wp-auth-check'),
+			form = $('#wp-auth-check-form'),
+			noframe = wrap.find('.wp-auth-fallback-expired'),
+			frame, loaded = false;
 
 		if ( form.length ) {
 			// Add unload confirmation to counter (frame-busting) JS redirects
@@ -11,9 +15,8 @@
 				e.originalEvent.returnValue = window.authcheckL10n.beforeunload;
 			});
 
-			// Add 'sandbox' for browsers that support it, only restrict access to the top window.
-			frame = $('<iframe id="wp-auth-check-frame" sandbox="allow-same-origin allow-forms allow-scripts" frameborder="0">').attr( 'title', noframe.text() );
-			frame.load( function(e) {
+			frame = $('<iframe id="wp-auth-check-frame" frameborder="0">').attr( 'title', noframe.text() );
+			frame.load( function() {
 				var height, body;
 
 				loaded = true;
@@ -23,19 +26,23 @@
 					height = body.height();
 				} catch(e) {
 					wrap.addClass('fallback');
+					parent.css( 'max-height', '' );
 					form.remove();
 					noframe.focus();
+					return;
 				}
 
 				if ( height ) {
-					if ( body && body.hasClass('interim-login-success') ) {
-						height += 35;
-						parent.find('.wp-auth-check-close').show();
-						wrap.data('logged-in', 1);
-						setTimeout( function() { hide(); }, 3000 );
-					}
-
-					parent.css( 'max-height', height + 60 + 'px' );
+					if ( body && body.hasClass('interim-login-success') )
+						hide();
+					else
+						parent.css( 'max-height', height + 40 + 'px' );
+				} else if ( ! body || ! body.length ) {
+					// Catch "silent" iframe origin exceptions in WebKit after another page is loaded in the iframe
+					wrap.addClass('fallback');
+					parent.css( 'max-height', '' );
+					form.remove();
+					noframe.focus();
 				}
 			}).attr( 'src', form.data('src') );
 
@@ -47,14 +54,14 @@
 		if ( frame ) {
 			frame.focus();
 			// WebKit doesn't throw an error if the iframe fails to load because of "X-Frame-Options: DENY" header.
-			// Wait for 5 sec. and switch to the fallback text.
+			// Wait for 10 sec. and switch to the fallback text.
 			setTimeout( function() {
 				if ( ! loaded ) {
 					wrap.addClass('fallback');
 					form.remove();
 					noframe.focus();
 				}
-			}, 5000 );
+			}, 10000 );
 		} else {
 			noframe.focus();
 		}
@@ -63,23 +70,41 @@
 	function hide() {
 		$(window).off( 'beforeunload.wp-auth-check' );
 
+		// When on the Edit Post screen, speed up heartbeat after the user logs in to quickly refresh nonces
+		if ( typeof adminpage !== 'undefined' && ( adminpage === 'post-php' || adminpage === 'post-new-php' ) &&
+			typeof wp !== 'undefined' && wp.heartbeat ) {
+
+			wp.heartbeat.connectNow();
+		}
+
 		wrap.fadeOut( 200, function() {
 			wrap.addClass('hidden').css('display', '');
 			$('#wp-auth-check-frame').remove();
 		});
 	}
 
+	function schedule() {
+		var interval = parseInt( window.authcheckL10n.interval, 10 ) || 180; // in seconds, default 3 min.
+		next = ( new Date() ).getTime() + ( interval * 1000 );
+	}
+
 	$( document ).on( 'heartbeat-tick.wp-auth-check', function( e, data ) {
-		if ( data['wp-auth-check'] && wrap.hasClass('hidden') ) {
-			show();
-		} else if ( ! data['wp-auth-check'] && ! wrap.hasClass('hidden') && ! wrap.data('logged-in') ) {
-			hide();
+		if ( 'wp-auth-check' in data ) {
+			schedule();
+			if ( ! data['wp-auth-check'] && wrap.hasClass('hidden') ) {
+				show();
+			} else if ( data['wp-auth-check'] && ! wrap.hasClass('hidden') ) {
+				hide();
+			}
 		}
 	}).on( 'heartbeat-send.wp-auth-check', function( e, data ) {
-		data['wp-auth-check'] = 1;
+		if ( ( new Date() ).getTime() > next ) {
+			data['wp-auth-check'] = true;
+		}
 	}).ready( function() {
-		wrap = $('#wp-auth-check-wrap').data('logged-in', 0);
-		wrap.find('.wp-auth-check-close').on( 'click', function(e) {
+		schedule();
+		wrap = $('#wp-auth-check-wrap');
+		wrap.find('.wp-auth-check-close').on( 'click', function() {
 			hide();
 		});
 	});

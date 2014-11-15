@@ -38,25 +38,27 @@ require_once( ABSPATH . 'wp-admin/includes/ajax-actions.php' );
 send_nosniff_header();
 nocache_headers();
 
+/** This action is documented in wp-admin/admin.php */
 do_action( 'admin_init' );
 
 $core_actions_get = array(
 	'fetch-list', 'ajax-tag-search', 'wp-compression-test', 'imgedit-preview', 'oembed-cache',
-	'autocomplete-user', 'dashboard-widgets', 'logged-in', 'revisions-data'
+	'autocomplete-user', 'dashboard-widgets', 'logged-in',
 );
 
 $core_actions_post = array(
 	'oembed-cache', 'image-editor', 'delete-comment', 'delete-tag', 'delete-link',
 	'delete-meta', 'delete-post', 'trash-post', 'untrash-post', 'delete-page', 'dim-comment',
 	'add-link-category', 'add-tag', 'get-tagcloud', 'get-comments', 'replyto-comment',
-	'edit-comment', 'add-menu-item', 'add-meta', 'add-user', 'autosave', 'closed-postboxes',
+	'edit-comment', 'add-menu-item', 'add-meta', 'add-user', 'closed-postboxes',
 	'hidden-columns', 'update-welcome-panel', 'menu-get-metabox', 'wp-link-ajax',
 	'menu-locations-save', 'menu-quick-search', 'meta-box-order', 'get-permalink',
 	'sample-permalink', 'inline-save', 'inline-save-tax', 'find_posts', 'widgets-order',
 	'save-widget', 'set-post-thumbnail', 'date_format', 'time_format', 'wp-fullscreen-save-post',
 	'wp-remove-post-lock', 'dismiss-wp-pointer', 'upload-attachment', 'get-attachment',
 	'query-attachments', 'save-attachment', 'save-attachment-compat', 'send-link-to-editor',
-	'send-attachment-to-editor', 'save-attachment-order', 'heartbeat', 'show-post-format-ui',
+	'send-attachment-to-editor', 'save-attachment-order', 'heartbeat', 'get-revision-diffs',
+	'save-user-color-scheme', 'update-widget', 'query-themes',
 );
 
 // Register core Ajax calls.
@@ -68,10 +70,26 @@ if ( ! empty( $_POST['action'] ) && in_array( $_POST['action'], $core_actions_po
 
 add_action( 'wp_ajax_nopriv_heartbeat', 'wp_ajax_nopriv_heartbeat', 1 );
 
-if ( is_user_logged_in() )
-	do_action( 'wp_ajax_' . $_REQUEST['action'] ); // Authenticated actions
-else
-	do_action( 'wp_ajax_nopriv_' . $_REQUEST['action'] ); // Non-admin actions
-
+if ( is_user_logged_in() ) {
+	/**
+	 * Fires authenticated AJAX actions for logged-in users.
+	 *
+	 * The dynamic portion of the hook name, $_REQUEST['action'],
+	 * refers to the name of the AJAX action callback being fired.
+	 *
+	 * @since 2.1.0
+	 */
+	do_action( 'wp_ajax_' . $_REQUEST['action'] );
+} else {
+	/**
+	 * Fires non-authenticated AJAX actions for logged-out users.
+	 *
+	 * The dynamic portion of the hook name, $_REQUEST['action'],
+	 * refers to the name of the AJAX action callback being fired.
+	 *
+	 * @since 2.8.0
+	 */
+	do_action( 'wp_ajax_nopriv_' . $_REQUEST['action'] );
+}
 // Default status
 die( '0' );

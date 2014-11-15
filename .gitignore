@@ -19,3 +19,4 @@ wp-content/backups/
 sitemap.xml
 sitemap.xml.gz
 codekit-config.json
+wp-config-sample.php

@@ -62,7 +62,7 @@
 			<?php if (isset($_GET['voucher'])) : ?>
 				<div class="voucher">Great stuff! Your voucher for your first free class is: <span><?php echo get_voucher(); ?></span>.  Bring it along and present it to the cashier at the door.  Have fun!</div>
 			<?php else : ?>
-				<a href="?voucher=true" class="button voucher">Free Class <small>Get your first class free with this voucher</small></a>
+				<a href="?voucher=true" class="button voucher">Free Class <small>Your first class free with this voucher</small></a>
 			<?php endif; ?>
 		<?php endif; ?>
 	</section>

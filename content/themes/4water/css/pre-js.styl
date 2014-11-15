@@ -11,7 +11,7 @@ html
 body
 	margin 0
 	h1,h2,h3,h4,h5,h6, nav a
-		font 1.6em/0.9em $display
+		font 1.6em $display
 	h1,h2,h3,h4,h5,h6
 		text-shadow 0px 1px white
 	h1, .item h2
@@ -302,7 +302,7 @@ body > header.child
 		li a
 			width 36px
 			height 40px
-			background $blue url(../img/icon.png) no-repeat center center
+			background $blue url(/content/themes/4water/img/icon.png) no-repeat center center
 			display block
 			text-indent 100%
 			overflow hidden
@@ -445,8 +445,8 @@ body > section, footer>div
 		width 51%
 
 .worldmap, .donations
+	overflow hidden
 	text-align center
-	padding-bottom 2em
 	border-bottom 1px solid lighten($grey, 30%)
 	box-shadow(0, 2px 0px white)
 
@@ -523,7 +523,7 @@ body > section > aside
 		position relative
 		label
 			position absolute
-			top -999px
+			left -2560px
 		#s
 			width 100%
 			border-radius 40px
